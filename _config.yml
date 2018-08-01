@@ -1,0 +1,88 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: C's Plus Plus
+description: >- # this means to ignore newlines until "baseurl:"
+  The ramblings of a Software Engineer in Kansas City, MO
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://Chrisrox8.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+locale: "en-US"
+include: ["_pages"]
+
+# HTML optimizing
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
+
+# Site Author
+author:
+  name             : "Christian Wagner"
+  avatar           : https://s.gravatar.com/avatar/7696b4a66dbd6bdebbd014ab132040e9?s=80
+  bio              : "Husband, Software Engineer, and runner"
+  location         : "Kansas City, MO"
+  facebook         : # ""
+  github           : "Chrisrox8"
+  instagram        : "christianwagner18"
+  linkedin         : # ""
+  stackoverflow    : # ""
+  twitter          : "Chris_the_man1"
+  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+
+# Social Media
+social:
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links:
+    - "https://twitter.com/Chris_the_man1"
+    - "https://instagram.com/christianwagner18"
+    - "https://www.github.com/Chrisrox8"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"
+
+# Comment provider info
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: chrisrox8-github-io
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      teaser: assets/image/blog_default_teaser.jpg
+      author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      related: true
+
+# Github API Authentication
+github: [metadata]
