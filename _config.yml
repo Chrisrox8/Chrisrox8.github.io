@@ -17,7 +17,7 @@ title: C's Plus Plus
 description: >- # this means to ignore newlines until "baseurl:"
   The ramblings of a Software Engineer in Kansas City, MO
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Chrisrox8.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://c-wags.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 locale: "en-US"
 include: ["_pages"]
 
@@ -34,7 +34,7 @@ author:
   bio              : "Husband, Software Engineer, and runner"
   location         : "Kansas City, MO"
   facebook         : # ""
-  github           : "Chrisrox8"
+  github           : "c-wags"
   instagram        : "christianwagner18"
   linkedin         : # ""
   stackoverflow    : # ""
@@ -48,7 +48,7 @@ social:
   links:
     - "https://twitter.com/Chris_the_man1"
     - "https://instagram.com/christianwagner18"
-    - "https://www.github.com/Chrisrox8"
+    - "https://www.github.com/c-wags"
 
 # Build settings
 markdown: kramdown
@@ -59,7 +59,7 @@ minimal_mistakes_skin: "dark"
 comments:
   provider: "disqus"
   disqus:
-    shortname: chrisrox8-github-io
+    shortname: c-wags-github-io
 
 defaults:
   # _posts
